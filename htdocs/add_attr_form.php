@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 # The DN we are working with
 $request = array();

@@ -9,8 +9,8 @@
 /**
  */
 
-require './common.php';
-require LIBDIR.'import_functions.php';
+require_once './common.php';
+require_once LIBDIR.'import_functions.php';
 
 $request = array();
 $request['importer'] = new Importer($app['server']->getIndex(),'LDIF');

@@ -10,7 +10,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 if (get_request('purge','REQUEST')) {
 	$tree = get_cached_item($app['server']->getIndex(),'tree');

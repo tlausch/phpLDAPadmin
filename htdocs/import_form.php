@@ -10,7 +10,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 if (! ini_get('file_uploads'))
 	error(_('Your PHP.INI does not have file_uploads = ON. Please enable file uploads in PHP.'),'error','index.php');

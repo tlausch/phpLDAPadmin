@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $request = array();
 $request['key'] = get_request('key','REQUEST');

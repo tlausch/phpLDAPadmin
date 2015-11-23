@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $user = array();
 $user['login'] = get_request('login');

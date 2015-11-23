@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 if ($app['server']->logout()) {
 	unset($_SESSION['ACTIVITY'][$app['server']->getIndex()]);

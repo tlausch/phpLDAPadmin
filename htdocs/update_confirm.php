@@ -14,7 +14,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $request = array();
 $request['dn'] = get_request('dn','REQUEST',true);

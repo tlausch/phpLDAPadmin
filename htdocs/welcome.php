@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 echo '<div style="text-align: center;">';
 echo '<br /><br />';

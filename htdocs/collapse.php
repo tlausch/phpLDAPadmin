@@ -13,7 +13,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $dn = get_request('dn','GET',true);
 $tree = get_cached_item($app['server']->getIndex(),'tree');

@@ -13,7 +13,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 # The DN and OBJECTCLASS we are working with.
 $request = array();

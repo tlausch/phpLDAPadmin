@@ -9,8 +9,8 @@
 /**
  */
 
-require './common.php';
-require LIBDIR.'export_functions.php';
+require_once './common.php';
+require_once LIBDIR.'export_functions.php';
 
 # Prevent script from bailing early for long search
 @set_time_limit(0);

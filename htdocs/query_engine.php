@@ -10,8 +10,8 @@
 /**
  */
 
-require './common.php';
-require LIBDIR.'query_functions.php';
+require_once './common.php';
+require_once LIBDIR.'query_functions.php';
 
 $request = array();
 $request['page'] = new QueryRender($app['server']->getIndex(),get_request('query','REQUEST',false,null));

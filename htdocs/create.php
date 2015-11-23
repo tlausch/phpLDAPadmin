@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 # If cancel was selected, we'll redirect
 if (get_request('cancel','REQUEST')) {

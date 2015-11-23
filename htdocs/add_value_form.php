@@ -10,7 +10,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 # The DN and ATTR we are working with.
 $request = array();

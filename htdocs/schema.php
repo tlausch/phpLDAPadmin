@@ -17,7 +17,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $entry = array();
 $entry['view'] = get_request('view','GET','false','objectclasses');

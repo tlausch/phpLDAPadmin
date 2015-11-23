@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $purge_session_keys = array('app_initialized','backtrace','cache',APPCONFIG);
 

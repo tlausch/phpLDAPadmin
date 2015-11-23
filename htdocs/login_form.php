@@ -10,7 +10,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 printf('<h3 class="title">%s %s</h3>',_('Authenticate to server'),$app['server']->getName());
 echo '<br />';

@@ -33,7 +33,7 @@ So:
 * Finally submit the update to "update_confirm", or the create to "create", when complete.
  */
 
-require './common.php';
+require_once './common.php';
 
 $request = array();
 $request['dn'] = get_request('dn','REQUEST');

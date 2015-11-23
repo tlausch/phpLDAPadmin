@@ -9,7 +9,7 @@
 /**
  */
 
-require './common.php';
+require_once './common.php';
 
 $request = array();
 $request['redirect'] = get_request('redirect','POST',false,false);

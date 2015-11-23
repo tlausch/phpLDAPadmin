@@ -49,7 +49,7 @@ if (ob_get_level())
 if (! extension_loaded('pcre'))
 	die('<p>Your install of PHP appears to be missing PCRE support.</p><p>Please install PCRE support before using phpLDAPadmin.<br /><small>(Dont forget to restart your web server afterwards)</small></p>');
 
-require LIBDIR.'functions.php';
+require_once LIBDIR.'functions.php';
 
 # Define the path to our configuration file.
 if (defined('CONFDIR'))
@@ -95,7 +95,7 @@ if (isset($app['function_files']) && is_array($app['function_files']))
 			error(sprintf('Fatal error: Cannot read the file "%s", its permissions may be too strict.',$file_name),'error',null,true);
 
 		ob_start();
-		require $file_name;
+		require_once $file_name;
 		if (ob_get_level()) ob_end_clean();
 	}
 
